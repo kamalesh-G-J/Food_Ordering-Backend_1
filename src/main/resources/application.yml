@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://kamalesh_gj_Node-js:kamal123@bms.x6ytbhn.mongodb.net/foodapp_users?retryWrites=true&w=majority&appName=BMS
+      auto-index-creation: true
+
+backend2:
+  base-url: http://localhost:8081
+
+jwt:
+  secret: change-me-super-secret-key-32chars-minimum
+  expiration: 86400
